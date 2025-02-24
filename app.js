@@ -123,7 +123,6 @@ class Bd {
 
 let bd = new Bd()
 
-
 function cadastrarDespesa() {
 
 	let ano = document.getElementById('ano')
@@ -132,7 +131,6 @@ function cadastrarDespesa() {
 	let tipo = document.getElementById('tipo')
 	let descricao = document.getElementById('descricao')
 	let valor = document.getElementById('valor')
-
 	let despesa = new Despesa(
 		ano.value, 
 		mes.value, 
@@ -228,8 +226,6 @@ function carregaListaDespesas(despesas = Array(), filtro = false) {
 	})
 
  }
-
- 
  function pesquisarDespesa(){
 	 
 	let ano  = document.getElementById("ano").value
